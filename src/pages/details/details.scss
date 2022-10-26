@@ -1,0 +1,33 @@
+@import '../../global.scss';
+
+.details {
+  padding: 4% 8%;
+  .img_cont {
+    width: 20%;
+    @include mobile {
+      width: 100%;
+    }
+    img {
+      max-width: fit-content;
+      width: 100%;
+    }
+  }
+
+  .overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+
+    h2 {
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 15px 0;
+      }
+    }
+  }
+}
