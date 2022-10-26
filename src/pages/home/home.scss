@@ -1,0 +1,39 @@
+.movies {
+  .title {
+    color: red;
+    text-align: center;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+
+    .item {
+      width: 350px;
+      background: transparent;
+      padding: 0.5rem 0.5rem;
+      margin: 1.5rem 0.5rem;
+      font-size: 1rem;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      border-bottom-right-radius: 225px 15px;
+      border-bottom-left-radius: 15px 255px;
+      border: solid 3px #41403e;
+
+      img {
+        width: 100%;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
